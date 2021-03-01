@@ -1,0 +1,39 @@
+html
+body {
+	font-family: sans-serif;
+    background-image: url(https://i.pinimg.com/originals/86/8a/5c/868a5c8f2c2fee4aad9f21128941b307.jpg);
+    padding: 10px;
+    font-size: 110%
+    background-size: cover;
+    border: solid 5px #775BF5;
+    color: purple;
+}
+   span{text-decoration: underline;
+}
+
+   h1{ color: Darkblue
+}
+
+   img{
+  border: 2px darkblue;
+  width: 700px;
+  border-width: 15px;
+}
+   .thumbnail:hover {
+  position: relative;
+  top: -25px;
+  left: -3px
+  width:500px;
+  height: auto;
+  display: block;
+  z-index: 999;
+}
+   .major-section{
+	margin: 20px;
+	padding: 10px;
+	border-radius: 5px;
+}
+   .minor-section{
+  padding: 2px 20px;
+  margin: 10px;
+}
