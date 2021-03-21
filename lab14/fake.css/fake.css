@@ -1,0 +1,77 @@
+html
+
+body{
+  background-color: #E3DDD5;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  width: 70%;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #17114F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 30px;
+  font-family:Arial Black;
+}
+
+.font{
+  font-family: "Lucida Handwriting", Brush Script M7, cursive;
+}
+
+
+.nav div{
+  height: 4px;
+  background-color: #2F22A3;
+  margin:5px 0 4px;
+}
+.nav{
+  width: 30px;
+  display: block;
+  margin: 1em 0 0 1em;
+  float: right;
+}
+.one, two, three{
+  width 30px;
+}
+
+
+*{
+  box-sizing: border-box;
+}
+.column{
+    float:left;
+    width: 50%;
+    padding: 20px;
+    height: 300px;
+    column-gap: 40px;
+}
+.row{
+  content: "";
+  display: table;
+  clear:both;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+  width: 10px;
+  float: right;
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
