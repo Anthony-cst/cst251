@@ -1,0 +1,52 @@
+html
+body {
+ /* font-size: 200%; */
+ background-image: url(https://cdn.wallpapersafari.com/31/65/r6DsZY.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+}
+.main{
+ background-color: white;
+ border-style: double; color: #384AAB; border-width: 8px;
+ opacity: 80%;
+ margin: 40px;
+ margin-bottom: 10px;
+ margin-top: 10px;
+ margin-left: 30px;
+ font-size: 20px;
+ padding: 0px 10px;
+}
+.header{
+ background-color: #383580;
+ text-align: center;
+ padding: 20px;
+}
+
+header, footer, nav, article, section, aside, main {
+ border: solid 2px lightblue;
+ padding: 10px;
+ margin: 10px;
+}
+.div-2{
+	font-family: "Copperplate", Papyrus, Fantasy;
+	color: darkblue;
+	font-size: 120%;
+	text-decoration: underline;
+}
+.h1, h2, h3{
+ font-family: "Courier New", Lucida Handwriting, Monospace;
+ position: top-right;
+ font-size: 40px
+}
+.p1, .p2, .p3{
+ font-family: "Copperplate", Papyrus, Fantasy;
+}
+
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}
