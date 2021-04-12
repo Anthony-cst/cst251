@@ -1,0 +1,54 @@
+html
+
+body{
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/539/382/417/1920x1080-px-aesthetic-neon-video-games-zelda-hd-art-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.main{
+	background-color: white;
+	border-style: double; color: #384AAB; border-width: 8px;
+	opacity: 80%;
+	margin: 40px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 30px;
+	font-size: 20px;
+	padding: 0px 10px;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #9E98F5;
+  color: white;
+  font-size: 30px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7EA9DE;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #7FF1F5;
+}
+
+.p1{
+  font-family: Times New Roman, Gerogia, Garamond, Serif;
+}
