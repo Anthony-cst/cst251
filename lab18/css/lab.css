@@ -1,0 +1,109 @@
+html
+
+.main{
+	background-color: white;
+	border-style: double; color: #384AAB; border-width: 8px;
+	opacity: 80%;
+	margin: 40px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 30px;
+	font-size: 20px;
+	padding: 0px 10px;
+}
+body {
+  font-family: Helvetica;
+  margin: 0;
+  background-color: #A6CEFF
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background-image: url(https://www.pixel4k.com/wp-content/uploads/2018/11/anime-cityscape-landscape-scenery-4k_1541975011.jpg);
+  color: white;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #A894D4;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #C898EB;
+}
+
+.h2, h4{
+	font-family: "Copperplate",Papyrus, Fantasy;
+ 	text-decoration: underline;
+ 	font-size: 30px
+}
+.h3{
+	font-family: "Copperplate",Papyrus, Fantasy;
+ 	text-decoration: underline;
+ 	text-align: right;
+ 	font-size: 30px
+}
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: #9693F5;
+}
+
+* {
+   box-sizing: border-box;
+}
+.imageColumn {
+   float: left;
+   width: 25%;
+   padding: 10px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+  background-color: #D18CFF;
+}
