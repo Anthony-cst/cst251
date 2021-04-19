@@ -1,5 +1,5 @@
 html
- body { 
+ body {
 	/* font-size: 200%; */
 	background-image: url(https://wallpaperaccess.com/full/41084.jpg);
 	background-repeat: no-repeat;
@@ -21,7 +21,7 @@ html
 .header{
 	background-color: #D7AEE6;
 	text-align: center;
-	padding: 20px; 
+	padding: 20px;
 }
 aside{
 	width: 300px;
